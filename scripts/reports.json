@@ -1,0 +1,34 @@
+[
+  {
+    "id": "SUPERPROF",
+    "title": "GANESH DURGA",
+    "author": "USA,DALLAS BASED",
+    "message": "Zenil makes Python learning engaging and clear, helping students build confidence and genuine interest in coding.",
+    "color": "green",
+    "year": "2025"
+  },
+  {
+    "id": "SUPERPROF",
+    "title": "BHAKTI",
+    "author": "MBBS STUDENT, RUSSIA",
+    "message": "learning Python with Zenil was a great experience. He explains concepts clearly and makes even difficult topics easy to understand. His lessons are practical, well-structured, and taught with patience, which really helped build my confidence in programming.",
+    "color": "blue",
+    "year": "2025"
+  },
+  {
+    "id": "SUPERPROF",
+    "title": "NITESH",
+    "author": "NLEAD OVERSEAS, AHMEDABAD",
+    "message": "Zenil made learning MIT App Inventor very fun and engaging. He breaks down app development into simple steps and encourages creativity while building real apps. His supportive teaching style helped me quickly gain confidence in creating my own applications.",
+    "color": "pink",
+    "year": "2026"
+  },
+  {
+    "id": "SUPERPROF",
+    "title": "ANANYA",
+    "author": "STUDENT, DELHI",
+    "message": "Zenil's Python classes are fantastic! He explains concepts in a way that's easy to understand and makes learning fun. His patience and clear teaching style helped me grasp programming quickly and confidently.",
+    "color": "yellow",
+    "year": "2025"
+  }
+]

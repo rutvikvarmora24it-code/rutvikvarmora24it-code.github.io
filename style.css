@@ -1,9 +1,98 @@
-.cursor{
-    animation: blink 1s infinite;
+.cursor {
+  display: inline-block;
+  font-size: 0.7em;
+  line-height: 1;
+  margin-left: 4px;
+  transform: translateY(-0.2em);
+  animation: blink 1s infinite;
 }
 
-@keyframes blink{
-    0%{opacity:1;}
-    50%{opacity:0;}
-    100%{opacity:1;}
+.marquee-auto {
+  display: inline-block;
+  white-space: nowrap;
+  animation: hero-marquee 25s linear infinite;
+}
+
+img{
+-webkit-user-drag:none;
+user-select:none;
+}
+
+
+#hack-msg{
+animation:terminalPop .25s ease;
+}
+
+@keyframes terminalPop{
+from{
+transform:translateY(10px);
+opacity:0;
+}
+to{
+transform:translateY(0);
+opacity:1;
+}
+}
+
+
+
+body{
+overflow-x:hidden;
+}
+
+/* hide scrollbar visually but keep scroll working */
+::-webkit-scrollbar{
+width:0px;
+height:0px;
+}
+
+*{
+scrollbar-width:none;
+}
+
+
+
+
+
+@keyframes hero-marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.marquee-container{
+overflow:hidden;
+}
+
+.marquee-content{
+display:flex;
+width:max-content;
+transform:translateX(0);
+will-change:transform;
+}
+
+
+
+
+.avatar-img{
+transition: transform 0.6s ease, filter 0.6s ease;
+}
+
+.group:hover .avatar-img{
+transform: scale(1.15);
 }
